@@ -1,2 +1,2 @@
-# Grid-Resize
+# Grid Resizer
  resize the grid via buttons
