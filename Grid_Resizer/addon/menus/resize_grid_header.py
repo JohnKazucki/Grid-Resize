@@ -7,6 +7,8 @@ def draw_gr_toolbar(layout):
     row.operator("gridresizer.resizegriddown", text="", icon="TRIA_DOWN")
     row.operator("gridresizer.resizegridreset", text="", icon="GRID")
 
+    # get current area data like this
+    # https://blender.stackexchange.com/questions/19744/getting-the-active-region
     current_scale = bpy.context.space_data.overlay.grid_scale
     row.separator()
     box = row.box()
