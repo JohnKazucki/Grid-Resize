@@ -22,7 +22,7 @@ keymaps =[
                     # grid resize up
                     {
                         "operator": "gridresizer.resizegridup", 
-                        "type": "K",
+                        "type": "T",
                         "value": "PRESS",
                         # prop_name is not applicable for regular operators
                         # "prop_name": "", 
@@ -35,7 +35,7 @@ keymaps =[
                     # grid resize down
                     {
                         "operator": "gridresizer.resizegriddown", 
-                        "type": "L",
+                        "type": "Y",
                         "value": "PRESS",
                         # prop_name is not applicable for regular operators
                         # "prop_name": "", 
@@ -48,7 +48,7 @@ keymaps =[
                     # grid reset
                     {
                         "operator": "gridresizer.resizegridreset", 
-                        "type": "M",
+                        "type": "U",
                         "value": "PRESS",
                         # prop_name is not applicable for regular operators
                         # "prop_name": "", 
