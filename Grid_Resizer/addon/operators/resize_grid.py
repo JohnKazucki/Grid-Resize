@@ -26,6 +26,8 @@ def set_grid_scale(mode):
                     if mode == "reset":
                         s.overlay.grid_scale = 1.0
 
+                    current_scale = s.overlay.grid_scale
+
                     break
 
     return current_scale
