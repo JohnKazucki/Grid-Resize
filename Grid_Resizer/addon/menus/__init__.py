@@ -1,9 +1,9 @@
 import bpy
 
-from .resize_grid_header import GR_PT_AddMenu
+from .resize_grid_header import GR_PT_TOOLBAR_OBJ, GR_PT_TOOLBAR_EDITMESH
 
 classes = (
-    GR_PT_AddMenu,
+    GR_PT_TOOLBAR_OBJ, GR_PT_TOOLBAR_EDITMESH,
 )
 
 
